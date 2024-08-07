@@ -1,27 +1,36 @@
-Ordermaadi
+# Ordermaadi
+
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Endpoints](#api-endpoints)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Overview
 Ordermaadi is a food ordering website developed using React JS, MongoDB, Express, and Node JS. It includes a comprehensive Admin Panel to manage food items and order statuses.
 
-Features
-User Authentication: Users can create accounts, log in, and manage their profiles.
-Shopping Cart: Users can add food items to their cart and place orders seamlessly.
-Order Status Updates: Users can track the status of their orders in real-time.
-Admin Panel: Admins can add new food items, update existing items, and manage order statuses.
-RESTful APIs: Efficient HTTP request and response handling using Node.js and Express.js.
+## Features
+- **User Authentication**: Users can create accounts, log in, and manage their profiles.
+- **Shopping Cart**: Users can add food items to their cart and place orders seamlessly.
+- **Order Status Updates**: Users can track the status of their orders in real-time.
+- **Admin Panel**: Admins can add new food items, update existing items, and manage order statuses.
+- **RESTful APIs**: Efficient HTTP request and response handling using Node.js and Express.js.
 
+## Tech Stack
+- **Frontend**: React JS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
 
-Technologies Used
-Frontend: React JS
-Backend: Node.js, Express.js
-Database: MongoDB
-
-
-Installation
-Clone the repository:
-
-sh
-Copy code
-git clone https://github.com/yourusername/ordermaadi.git
-cd ordermaadi
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/ordermaadi.git
+   cd ordermaadi
 Install the dependencies:
 
 sh
@@ -76,23 +85,16 @@ GET /api/orders - Get all orders (Admin only)
 GET /api/orders/:id - Get order details
 PUT /api/orders/:id - Update order status (Admin only)
 Contributing
-Contributions are welcome! Please follow these steps to contribute:
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please create an issue or submit a pull request.
 
-Fork the repository.
-Create a new branch:
-sh
-Copy code
-git checkout -b feature/your-feature-name
-Make your changes.
-Commit your changes:
-sh
-Copy code
-git commit -m 'Add some feature'
-Push to the branch:
-sh
-Copy code
-git push origin feature/your-feature-name
-Open a pull request.
 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
+Contact
+If you have any questions, feel free to reach out!
+
+Email: akshivbansal9084@gmail.com
+GitHub: akshiv16
+Live Site: Ordermaadi
+
+Thank you for using Ordermaadi!
