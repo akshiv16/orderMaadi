@@ -27,11 +27,10 @@ Ordermaadi is a food ordering website developed using React JS, MongoDB, Express
 
 ## Installation
 1. Clone the repository:
-
-## Install the dependencies:
-## Set up the environment variables:
-
-Create a .env file in the root directory.
+2. Install the dependencies:
+3. Set up the environment variables:
+  -Create a .env file in the root directory.
+## Usage:
 
  **User Authentication:**
 
