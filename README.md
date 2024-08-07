@@ -8,7 +8,6 @@
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Overview
@@ -28,73 +27,55 @@ Ordermaadi is a food ordering website developed using React JS, MongoDB, Express
 
 ## Installation
 1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/ordermaadi.git
-   cd ordermaadi
-Install the dependencies:
 
-sh
-Copy code
-npm install
-cd client
-npm install
-cd ..
-Set up the environment variables:
+## Install the dependencies:
+## Set up the environment variables:
 
 Create a .env file in the root directory.
-Add the following environment variables:
-makefile
-Copy code
-MONGO_URI=your_mongo_db_connection_string
-JWT_SECRET=your_jwt_secret_key
-Start the development server:
 
-sh
-Copy code
-npm run dev
-Usage
-User Authentication:
+ **User Authentication:**
 
-Sign up for a new account or log in with existing credentials.
-Manage your profile information.
-Shopping Cart:
+-Sign up for a new account or log in with existing credentials.
+-Manage your profile information.
+**Shopping Cart:**
 
-Browse the menu and add items to your cart.
-View your cart and proceed to checkout.
-Place your order and track its status.
-Admin Panel:
+-Browse the menu and add items to your cart.
+-View your cart and proceed to checkout.
+-Place your order and track its status.
+**Admin Panel:** 
 
-Log in as an admin to access the admin panel.
-Add new food items with relevant details.
-Update or delete existing food items.
-View and update order statuses.
-API Endpoints
-User Routes
-POST /api/users/register - Register a new user
-POST /api/users/login - Log in a user
-GET /api/users/profile - Get user profile
-PUT /api/users/profile - Update user profile
-Food Item Routes
-GET /api/foods - Get all food items
-POST /api/foods - Add a new food item (Admin only)
-PUT /api/foods/:id - Update a food item (Admin only)
-DELETE /api/foods/:id - Delete a food item (Admin only)
-Order Routes
-POST /api/orders - Place a new order
-GET /api/orders - Get all orders (Admin only)
-GET /api/orders/:id - Get order details
-PUT /api/orders/:id - Update order status (Admin only)
-Contributing
+-Log in as an admin to access the admin panel.
+-Add new food items with relevant details.
+-Update or delete existing food items.
+-View and update order statuses.
+## API Endpoints
+**User Routes**
+-POST /api/users/register - Register a new user
+-POST /api/users/login - Log in a user
+-GET /api/users/profile - Get user profile
+-PUT /api/users/profile - Update user profile
+
+-Food Item Routes
+-GET /api/foods - Get all food items
+-POST /api/foods - Add a new food item (Admin only)
+-PUT /api/foods/:id - Update a food item (Admin only)
+-DELETE /api/foods/:id - Delete a food item (Admin only)
+-Order Routes
+
+-POST /api/orders - Place a new order
+-GET /api/orders - Get all orders (Admin only)
+-GET /api/orders/:id - Get order details
+-PUT /api/orders/:id - Update order status (Admin only)
+## Contributing
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please create an issue or submit a pull request.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Contact
+
+## Contact
 If you have any questions, feel free to reach out!
 
-Email: akshivbansal9084@gmail.com
-GitHub: akshiv16
-Live Site: Ordermaadi
+-Email: akshivbansal9084@gmail.com
+-GitHub: akshiv16
 
-Thank you for using Ordermaadi!
+
+
